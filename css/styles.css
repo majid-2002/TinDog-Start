@@ -1,182 +1,196 @@
-
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    color: #ffff;
-
+body {
+  text-align: center;
 }
 
-h2 {
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 1.1;
-}
-
-.navbar-brand {
-    font-size: 2.5rem;
-    font-family: 'Ubuntu', sans-serif;
-
-}
-
-
-
-#title {
-    background-color: #ff4c68;
-    height: 100vh;
-    
-}
-.btn-title {
-    margin-right: 20px;
-}
-.hero-section {
-    padding-top: 5%;
-}
-.img-mobdog {
-    width: 20%;
-    transform: rotate(20deg);
-    margin-left: 70px;
-    position: absolute;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
 
 .container-fluid {
-        padding: 3% 10% 9%;
+  padding: 3% 10% 9%;
+}
+
+/** Title Part  */
+
+#title {
+  background-color: #ff4c68;
+  height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.big-heading {
+  text-align: left;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+.buttons-title {
+  text-align: left;
+}
+.btn1-title {
+  margin-right: 20px;
+}
+.hero-section {
+  padding-top: 5%;
+}
+.img-mobdog {
+  width: 22%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 250px;
 }
 
 /*? Feature Section */
 
-#features {
-   padding: 7% 0;
-   background-color: #fff;
-   position: relative;
+.feature-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
+#features {
+  padding: 7% 0;
+  background-color: #fff;
+  position: relative;
 }
 #features .feature-box {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#features .feature-box h3 {
-    
-    font-weight: bold;
-    font-size: 1.5rem;
-    
+  font-family: "Montserrat", sans-serif;
 }
 
 #features .feature-box p {
-    color: #8f8f8f;
-    padding: 1% 15%;
+  color: #8f8f8f;
+  padding: 1% 15%;
 }
 
 #features .feature-box i {
-    
-    color: #ff4c67c9;
-    padding-bottom: 1.5rem;
+  color: #ff4c67c9;
+  padding-bottom: 1.5rem;
 }
 
 #features .feature-box i:hover {
-    color: #ff4c68 ;
+  color: #ff4c68;
 }
 
-#testimonials {
-    
-    text-align: center;
-    background-color: #ef8172;
-    color: #fff;
+/** Testmonial part */
 
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testmonial-text {
+  font-size: 3rem;
+  line-height: 1.1;
 }
 
 .testimonial-img {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 0;
+.carousel-item {
+  padding: 7% 0;
 }
+
+/** Press Section */
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
 #press img {
-    width: 16%;
-    margin: 20px 20px 50px ;
+  width: 16%;
+  margin: 20px 20px 50px;
 }
 
+/** Pricing Section */
 
 #pricing {
-    padding: 100px 0;
+  padding: 100px 0;
+}
+.pricing-bigtext {
+  font-size: 3rem;
+}
+
+.pricing-text {
+  color: #000;
+  font-size: 2rem;
 }
 
 .card-area {
-    padding: 80px 20px;
-}
-#cta {
-    background-color: #ff4c68;
+  padding: 80px 20px;
 }
 
-#cta h3 {
-    font-family: "Montserrat";
-    font-weight: 900;
-    color: white;
-    font-size: 3.4rem;
-    
+/** CTA section  */
+
+.cta-text {
+  color: white;
+  font-size: 3rem;
+}
+
+#cta {
+  padding: 7% 10%;
+  background-color: #ff4c68;
 }
 
 #cta button {
-    margin: 5% 1%;
+  margin: 5% 1%;
 }
 
-#cta , #footer {
-    text-align: center;
-    padding: 7% 10%;
+/** Footer Section */
+
+#footer {
+  padding: 7% 10%;
 }
 
 #footer i {
-    margin: 3% 1%;
+  margin: 3% 1%;
 }
 
 #footer i:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
+/** Mobile Screen edit */
+
 @media (max-width: 991px) {
-    #title {
-        height: 150vh;
-        text-align: center;
+  h1 {
+    font-size: 2.5rem;
+  }
 
-    }
-    #feature {
-        position: static;
-    }
-    .img-mobdog{
-        position: static;
-        width: 80%;
-        transform: rotate(0);
-        padding: 20% 0 0;
-        margin-left: 0;
-    }
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 550;
+  }
 
-    h1{
-        font-size: 2.5rem;
-    }
+  h3 {
+    font-size: 2rem;
+  }
 
-    h2 {
-        font-size: 1.8rem;
-        font-weight: 550;
-    }
-
-    #cta h3 {
-        font-size: 2rem;
-    }
-
-    
+  #title {
+    height: 150vh;
+    text-align: center;
+  }
+  #feature {
+    position: static;
+  }
+  .img-mobdog {
+    position: static;
+    width: 80%;
+    transform: rotate(0);
+    padding: 20% 0 0;
+    margin-left: 0;
+  }
 }
