@@ -1,0 +1,182 @@
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #ffff;
+
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+#title {
+    background-color: #ff4c68;
+    height: 100vh;
+    
+}
+.btn-title {
+    margin-right: 20px;
+}
+.hero-section {
+    padding-top: 5%;
+}
+.img-mobdog {
+    width: 20%;
+    transform: rotate(20deg);
+    margin-left: 70px;
+    position: absolute;
+}
+
+.container-fluid {
+        padding: 3% 10% 9%;
+}
+
+/*? Feature Section */
+
+#features {
+   padding: 7% 0;
+   background-color: #fff;
+   position: relative;
+
+}
+#features .feature-box {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#features .feature-box h3 {
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+#features .feature-box p {
+    color: #8f8f8f;
+    padding: 1% 15%;
+}
+
+#features .feature-box i {
+    
+    color: #ff4c67c9;
+    padding-bottom: 1.5rem;
+}
+
+#features .feature-box i:hover {
+    color: #ff4c68 ;
+}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 0;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+#press img {
+    width: 16%;
+    margin: 20px 20px 50px ;
+}
+
+
+#pricing {
+    padding: 100px 0;
+}
+
+.card-area {
+    padding: 80px 20px;
+}
+#cta {
+    background-color: #ff4c68;
+}
+
+#cta h3 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    font-size: 3.4rem;
+    
+}
+
+#cta button {
+    margin: 5% 1%;
+}
+
+#cta , #footer {
+    text-align: center;
+    padding: 7% 10%;
+}
+
+#footer i {
+    margin: 3% 1%;
+}
+
+#footer i:hover {
+    color: #ff4c68;
+}
+
+@media (max-width: 991px) {
+    #title {
+        height: 150vh;
+        text-align: center;
+
+    }
+    #feature {
+        position: static;
+    }
+    .img-mobdog{
+        position: static;
+        width: 80%;
+        transform: rotate(0);
+        padding: 20% 0 0;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 550;
+    }
+
+    #cta h3 {
+        font-size: 2rem;
+    }
+
+    
+}
